@@ -1,0 +1,51 @@
+{
+  "experiment_name": "fashion-mnist-cnn-mlops-week6",
+  "dataset": "Fashion-MNIST",
+  "dataset_hash": "077b4755137a74af2a91fab67a4119b20dc1a4414eceff32227b0665a60cd1b9",
+  "baseline_best_val_accuracy": 0.8170833333333334,
+  "tuning_trials_completed": 20,
+  "best_tuning_val_accuracy": 0.8620833333333333,
+  "best_params": {
+    "lr": 0.0028209365807357473,
+    "batch_size": 128,
+    "channels": 32,
+    "dropout": 0.023045806903528105,
+    "optimizer": "Adam"
+  },
+  "multi_seed_mean_val_accuracy": 0.864861111111111,
+  "multi_seed_std_val_accuracy": 0.002545875386086576,
+  "augmentation_ablation": [
+    {
+      "ablation": "without_augmentation",
+      "best_val_accuracy": 0.8620833333333333,
+      "best_val_loss": 0.39820418318112694,
+      "training_seconds": 73.89231991767883
+    },
+    {
+      "ablation": "with_augmentation",
+      "best_val_accuracy": 0.8470833333333333,
+      "best_val_loss": 0.43320513248443604,
+      "training_seconds": 89.9928708076477
+    }
+  ],
+  "dropout_ablation": [
+    {
+      "ablation": "without_dropout",
+      "best_val_accuracy": 0.8595833333333334,
+      "best_val_loss": 0.40390709400177,
+      "training_seconds": 69.47912001609802
+    },
+    {
+      "ablation": "with_dropout",
+      "best_val_accuracy": 0.8620833333333333,
+      "best_val_loss": 0.39820418318112694,
+      "training_seconds": 71.69865655899048
+    }
+  ],
+  "test_loss": 0.37669275991916656,
+  "test_accuracy": 0.865,
+  "registered_model_name": "fashion-mnist-cnn",
+  "registered_model_version": "1",
+  "model_alias": "champion",
+  "final_run_id": "b5ea1a511d824a4f8271b12468fce903"
+}

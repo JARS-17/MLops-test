@@ -1,0 +1,9 @@
+{
+  "dataset": "Fashion-MNIST",
+  "train_subset_size": 9600,
+  "validation_size": 2400,
+  "test_size": 10000,
+  "split_seed": 42,
+  "hash_algorithm": "SHA-256",
+  "train_subset_hash": "a52770774d7b55e835496039b885f3a0c6de89b7eaf8bb67d69700dce73a87ca"
+}

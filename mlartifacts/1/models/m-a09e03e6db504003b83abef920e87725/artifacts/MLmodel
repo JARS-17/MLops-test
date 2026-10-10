@@ -1,0 +1,23 @@
+artifact_path: file:D:/mlops-week6/mlartifacts/1/models/m-a09e03e6db504003b83abef920e87725/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.13.1
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.12.1+cpu
+mlflow_version: 3.17.0
+model_id: m-a09e03e6db504003b83abef920e87725
+model_size_bytes: 837453
+model_uuid: m-a09e03e6db504003b83abef920e87725
+prompts: null
+run_id: b60e45e78f6f4eaeadaa19c3c065dd4e
+utc_time_created: '2026-10-08 23:07:15.235335'
